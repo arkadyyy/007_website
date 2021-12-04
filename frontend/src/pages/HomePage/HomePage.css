@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,900&display=swap");
+
+@keyframes blackOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+.opening_Text {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  position: absolute;
+  font-size: 42px;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+.s_opening_Text {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  /* position: absolute; */
+  font-size: 22px;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-right: 50%;
+}
+
+.lower_buy_ticket_text {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 700;
+  font-style: italic;
+  /* position: absolute; */
+  font-size: 62px;
+  /* margin-block-end: 0; */
+  /* margin-block-start: 0; */
+}
+
+.first_triangle {
+  width: 0;
+  height: 0;
+  border-top: 850px solid #e0caca;
+  border-left: 1518px solid transparent;
+  position: relative;
+  right: 0;
+  top: -575px;
+
+  z-index: -1;
+}
+.s_first_triangle {
+  width: 0;
+  height: 0;
+  border-top: 270px solid #e0caca;
+  border-left: 377px solid transparent;
+  position: relative;
+  right: 0;
+  top: -163px;
+
+  z-index: -1;
+}
+.secend_triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 800px solid #e0caca;
+  border-left: 1550px solid transparent;
+  position: relative;
+  right: 0;
+  top: -799px;
+  z-index: -1;
+}
+.rectangle {
+  width: 650px;
+  height: 370px;
+  background-color: #c4c4c4;
+  position: relative;
+  margin-top: 7rem;
+  box-shadow: 10px 30px 50px 40px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+.rectangle2 {
+  width: 800px;
+  height: 82%;
+  background-color: #222322;
+}
+.s_rectangle2 {
+  width: 250px;
+  height: 62%;
+  background-color: #222322;
+}
+.text1 {
+  z-index: 4;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5rem;
+  font-weight: 300;
+  position: relative;
+  top: -670px;
+  right: 650px;
+  width: 500px;
+  text-align: right;
+}
+.s_text1 {
+  z-index: 4;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5rem;
+  font-weight: 300;
+  position: relative;
+  top: -320px;
+  right: 550px;
+  width: 500px;
+  text-align: right;
+}
+.text2 {
+  z-index: 4;
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 300;
+  position: relative;
+  top: 200px;
+  left: 80px;
+  width: 500px;
+  color: white;
+}
+.s_text2 {
+  z-index: 4;
+  font-family: "Roboto", sans-serif;
+  margin-right: 2rem;
+  font-weight: 300;
+  position: relative;
+  top: 80px;
+  left: 20px;
+
+  color: white;
+}
+.sectionText {
+  position: relative;
+  font-size: 22px;
+}
+.s_sectionText {
+  position: relative;
+  font-size: 12px;
+}
+.sectionText2 {
+  font-size: 22px;
+  color: white;
+  /* position: relative; */
+  right: 700px;
+  top: 200px;
+}
+.hexagon {
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 16%, 22% 100%, 0 100%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 16%, 22% 100%, 0 100%, 0 0);
+  height: 100vh;
+  animation: 2s ease-out 0s 1 blackOpacity;
+}
+.s_hexagon {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 16%, 22% 100%, 0 100%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 16%, 22% 100%, 0 100%, 0 0); */
+  height: 100vh;
+  animation: 2s ease-out 0s 1 blackOpacity;
+}
+
+.musseum_div {
+  height: 95vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 7rem 7rem;
+  overflow: hidden;
+}
+.musseum_collage {
+  margin-top: 2px;
+  overflow: hidden;
+}
+.musseum_text {
+  background-color: green;
+}
+.s_musseum_text {
+  font-size: 12px;
+  right: 20px;
+  margin-left: 30px;
+  margin-top: 70px;
+}
+.s_musseum_collage {
+  height: 80vh;
+}
+
+.store_div {
+  height: 105vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.s_store_div {
+  height: 85vh;
+  overflow: hidden;
+  margin-top: 15rem;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+.store_product {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  z-index: 4;
+  animation: float 4s ease-in-out infinite;
+  cursor: pointer;
+  border-radius: 50%;
+}

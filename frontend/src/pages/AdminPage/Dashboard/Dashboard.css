@@ -1,0 +1,44 @@
+.dashboard_header {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 32px;
+}
+.dashboard_line_card {
+  box-shadow: 2px 0px 20px rgba(75, 55, 55, 0.2);
+  padding: 1rem;
+  height: 40vh;
+  width: 97.8%;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.dashboard_doughtnut_card {
+  box-shadow: 2px 0px 20px rgba(75, 55, 55, 0.2);
+
+  /* padding: 1rem; */
+  /* height: 30vh; */
+  flex: 2;
+  margin: 1rem;
+  height: 40vh;
+  border-radius: 5px;
+}
+
+.dashboard_doughtnut_country_card {
+  box-shadow: 2px 0px 20px rgba(75, 55, 55, 0.2);
+  /* padding: 1rem; */
+  /* height: 30vh; */
+  flex: 1;
+  margin: 1rem;
+  height: 40vh;
+  border-radius: 5px;
+}
+h4 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}

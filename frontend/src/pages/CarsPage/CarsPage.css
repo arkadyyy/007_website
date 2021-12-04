@@ -1,0 +1,57 @@
+.triangle {
+  clip-path: polygon(0 -43%, 0% 100%, 100% 100%);
+
+  background-color: #e0caca;
+  height: 100vh;
+  top: 250px;
+  z-index: -200;
+  overflow: hidden;
+  position: absolute;
+}
+
+.detail_box {
+  background-color: #c4c4c4;
+
+  height: 85vh;
+  width: 30%;
+  float: right;
+  margin-top: 15rem;
+}
+
+.car_description_header {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 32px;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.car_description {
+  color: "black";
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+.car_image {
+  width: 1000px;
+  height: 430px;
+  position: relative;
+  /* left: 260px; */
+  top: 180px;
+}
+.animate {
+  animation: slide 3s normal;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    right: 500px;
+  }
+
+  100% {
+    opacity: 1;
+    right: 260px;
+  }
+}

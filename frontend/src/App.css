@@ -1,0 +1,5 @@
+.MuiDropzoneSnackbar-infoAlert,
+.MuiDropzoneSnackbar-successAlert,
+.MuiDropzoneSnackbar-errorAlert {
+  background-color: #222322 !important;
+}

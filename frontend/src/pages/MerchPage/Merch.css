@@ -1,0 +1,15 @@
+.search_select_button {
+  text-transform: none;
+  background-color: "red";
+}
+
+.search_select {
+  display: flex;
+  align-items: center;
+}
+.PrivateTabIndicator-colorSecondary-7 {
+  background-color: #eee1e1 !important;
+}
+.PrivateTabIndicator-colorSecondary-15 {
+  background-color: #eee1e1 !important;
+}

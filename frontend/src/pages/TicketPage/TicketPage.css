@@ -1,0 +1,17 @@
+.ticket_triangle {
+  clip-path: polygon(100% 35%, 25% 100%, 100% 100%);
+
+  background-color: #e0caca;
+
+  width: 155vw;
+  height: 120vh;
+  z-index: -200;
+  overflow: hidden;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+
+.MuiTab-textColorSecondary.Mui-selected {
+  color: #222322 !important;
+}
